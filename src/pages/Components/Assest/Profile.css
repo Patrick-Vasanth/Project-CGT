@@ -1,0 +1,335 @@
+.cards {
+  width: 100%;
+  background-color: #206a5d;
+  border-radius: 1%;
+  padding: 3%;
+  height: 85vh;
+  margin-top: 2%;
+}
+
+.title,
+.title1 {
+  font-weight: 600 !important;
+}
+
+/*Row 1 styling*/
+
+.student-card {
+  width: 100%;
+  display: flex;
+}
+
+.checkList {
+  display: flex;
+}
+
+.clickable {
+  padding-left: 24%;
+  width: 180px;
+}
+
+.row1,
+.row2 {
+  height: max-content !important;
+}
+
+.row2 {
+  padding-top: 2%;
+}
+
+.title-card {
+  width: 100%;
+  padding: 2%;
+  background: linear-gradient(101.37deg, #153254 1.17%, #206a5d 100%);
+
+  color: #ffffff;
+  border-radius: 15px;
+}
+
+.title-card2 {
+  width: 100%;
+  padding: 3%;
+  border-radius: 15px;
+  background: linear-gradient(101.37deg, #153254 1.17%, #206a5d 100%);
+
+  color: #ffffff;
+}
+
+.title-card1 {
+  width: 100%;
+  padding: 5%;
+  border-radius: 15px;
+  background: linear-gradient(101.37deg, #153254 1.17%, #206a5d 100%);
+
+  color: #ffffff;
+}
+
+.title-card3 {
+  width: 100%;
+  padding: 3%;
+  border-radius: 15px;
+  background: linear-gradient(101.37deg, #153254 1.17%, #206a5d 100%);
+
+  color: #ffffff;
+}
+
+.referral-card,
+.referral-card1 {
+  width: 100%;
+  display: flex;
+}
+
+.details-label div {
+  padding-bottom: 4% !important;
+}
+
+.referral-cards1 {
+  padding: 4%;
+}
+
+.referral-cards1 div {
+  padding-bottom: 3%;
+}
+
+.referral-cards3 {
+  padding-bottom: 3%;
+}
+
+.student-details,
+.referral-details {
+  display: flex;
+  flex-direction: row;
+  text-align: start;
+  padding: 2%;
+  width: 100%;
+}
+
+.referral-details {
+  padding: 5% !important;
+}
+
+.details-label {
+  word-break: break-all;
+  font-family: "Nunito";
+}
+
+#img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  /* border: 2px solid; */
+}
+
+.title h5 {
+  max-width: 100%;
+  text-align: center;
+  font-weight: 800;
+  font-family: "Nunito";
+}
+
+/*Row 2 styling*/
+/*Toggle*/
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+  padding-top: 4%;
+  align-items: center;
+}
+.toggle-switch input[type="checkbox"] {
+  display: none;
+}
+.toggle-switch .switch {
+  position: absolute;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 25px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: background-color 0.2s ease;
+}
+
+.toggle-switch .switch::before {
+  color: #2b2b2b;
+  position: absolute;
+  content: "";
+  left: 2px;
+  top: 2px;
+  width: 21px;
+  height: 21px;
+  background-color: #0c2137;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+.toggle-switch input[type="checkbox"]:checked + .switch::before {
+  transform: translateX(25px);
+  background-color: #0c2137;
+}
+.toggle-switch input[type="checkbox"]:checked + .switch {
+  background-color: #ffffff;
+}
+
+/* .toggleBar {
+    max-width: 100%;
+    background: linear-gradient(101.37deg, #153254 1.17%, #206a5d 100%);
+    border-radius: 10px;
+    padding: 2%;
+    box-shadow: 0px 4px 15px 2px rgba(0, 0, 0, 0.25);
+  } */
+
+#Html,
+#Css,
+#Javascript,
+#React {
+  border-radius: 50% !important;
+}
+
+.referral-cards2 {
+  padding-top: 2%;
+  width: 100% !important;
+}
+
+.details-label1 {
+  text-align: start;
+  padding-left: 3%;
+  font-family: "Nunito";
+}
+
+.title1 h5 {
+  max-width: 100%;
+  text-align: start;
+}
+
+.details-label2 div {
+  padding-bottom: 6px !important;
+}
+
+.details-label1 div {
+  padding-bottom: 2% !important;
+}
+
+.radioBtn label {
+  padding-left: 2%;
+}
+
+.radioBtn {
+  width: 100% !important;
+}
+
+.radioBtn .toggle-switch {
+  margin-left: 3% !important;
+}
+
+.toggle {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  padding-bottom: 0 !important;
+}
+
+.place-text {
+  text-align: end;
+}
+
+.place-text h6 {
+  margin-bottom: 0 !important;
+}
+
+.referral-details1 {
+  display: flex;
+  flex-direction: row;
+  text-align: start;
+  padding: 2.5%;
+  max-width: 100%;
+  /* max-width: fit-content; */
+}
+
+/*Referral Profile*/
+
+.studentTable1 {
+  border-radius: 12px !important;
+  margin-top: 2% !important;
+}
+
+.title-card4 {
+  width: 100%;
+  padding: 3%;
+  border-radius: 15px;
+  background: linear-gradient(101.37deg, #153254 1.17%, #206a5d 100%);
+
+  color: #ffffff;
+  margin-top: 3%;
+}
+
+.studentTableHeading1 {
+  height: 60px;
+  width: 800px;
+  background: #d9d9d9;
+  color: #ffffff;
+}
+
+.studentTableBody {
+  height: 60px;
+  width: 800px;
+  color: #ffffff;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #20605f 0deg,
+    rgba(32, 96, 95, 0) 195deg,
+    #20605f 360deg
+  );
+
+  border: 2.5px solid #ebecf1;
+}
+
+.studentHead1,
+.studentHead2,
+.studentHead3 {
+  width: calc(800px / 3) !important;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+  border-bottom-width: 0px !important;
+  text-align: center;
+  padding: 0.75rem !important;
+}
+
+.studentBody1,
+.studentBody2,
+.studentBody3 {
+  width: calc(800px / 3) !important;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+  border-bottom-width: 0px !important;
+  text-align: center;
+  padding: 0.75rem !important;
+}
+
+.referral-table {
+  background: linear-gradient(101.37deg, #1f4068 1.17%, #206a5d 99.55%);
+  height: 70vh;
+  border-radius: 12px;
+  border: 2px solid #ffffff;
+}
+
+.studentHead1 {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.studentHead3 {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.studentTableBody td {
+  border-radius: 12px !important;
+}

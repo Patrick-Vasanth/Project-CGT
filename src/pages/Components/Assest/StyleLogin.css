@@ -1,0 +1,301 @@
+/*Login
+Referral Creation
+Student Profile
+*/
+
+@import url("https://unpkg.com/bootstrap@5.2.3/dist/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@100&display=swap");
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#input-name,
+#input-pwd,
+#btn-lgn,
+#input-tele,
+#input-comp,
+#input-conpwd,
+#input-email {
+  width: 400px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  margin: 10px 25px;
+  font-size: 20px;
+  padding: 12px 15px;
+  font-family: "Nunito", sans-serif;
+}
+#btn-lgn,
+#btn-ref {
+  width: 400px;
+  height: 50px;
+  border-radius: 15px;
+  margin: 20px 25px;
+  font-size: 20px;
+  color: white;
+  background-color: #1f4068;
+  border: 1px solid #ebecf1;
+  padding: 0 !important;
+  font-family: "Nunito", sans-serif;
+  transition: 0.3s;
+}
+#btn-lgn:hover,
+#btn-ref:hover {
+  border: 2px solid #17375e;
+  transition: 0.3;
+}
+
+.crd {
+  background-color: #499d16;
+  padding: 50px 20px;
+  border-radius: 15px;
+}
+
+.crd-ref {
+  background-color: #499d16;
+  padding: 20px 20px;
+  border-radius: 15px;
+  margin-bottom: 100px;
+}
+.heading {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  padding-bottom: 20px;
+  font-family: "Hahmlet", serif;
+  font-weight: 600;
+}
+.bg-color {
+  background-color: #f5f5f5;
+}
+.heading-ref {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  margin-bottom: 15px !important;
+  font-family: "Hahmlet", serif;
+  font-weight: 600;
+}
+
+/*navabr*/
+
+.navBar {
+  background-color: #499d16;
+}
+
+.navItem {
+  padding-right: 6%;
+  font-size: 20px;
+}
+
+.item {
+  color: #ffffff;
+  font-family: "Nunito";
+  padding: 20px !important;
+  font-weight: 600;
+}
+
+.img {
+  width: 68px !important;
+  height: 68px !important;
+}
+
+/* student card*/
+
+/* .cad-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 80vh;
+  }
+
+
+/* Std crd */
+.cd {
+  height: 80svh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.frm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.cd-main {
+  display: flex;
+  flex-direction: row;
+  padding: 90px 20px 90px 20px;
+  background-color: #499d16;
+  border-radius: 15px;
+  position: relative;
+  gap: 25px;
+}
+#fullname,
+#number,
+#email,
+#referralname,
+#passedout,
+#startdate,
+#enddate,
+#amount,
+#colname {
+  width: 250px;
+  padding: 10px 15px;
+  border-radius: 7px;
+  margin: 10px;
+  border: none;
+  font-family: "Nunito", sans-serif;
+}
+
+.referal,
+.crs-name {
+  width: 250px;
+  border-radius: 7px;
+  padding: 10px;
+  margin: 8px 9px;
+  font-family: "Nunito", sans-serif;
+  cursor: pointer;
+}
+
+.file {
+  border-radius: 15px;
+  margin: 10px;
+  height: 105px;
+  width: 250px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+#btn-sub {
+  width: 500px;
+  border-radius: 10px;
+  margin: 25px 25px;
+  font-size: 20px;
+  color: white;
+  background-color: #1f4068;
+  border: 1px solid #ebecf1;
+  padding: 8px;
+  font-family: "Nunito", sans-serif;
+}
+#btn-sub:hover {
+  border: 2px solid #17375e;
+  transition: 0.3;
+}
+
+.sub-btn {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+.frm h3 {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  margin-top: 30px;
+  color: #ffffff;
+  font-family: "Hahmlet";
+  font-weight: 600;
+}
+#img-icon {
+  font-size: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+#img-lbl {
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#startdate,
+#enddate {
+  text-align: end;
+  cursor: pointer;
+}
+#enddate {
+  background-color: #ffffff;
+}
+#strt,
+#end {
+  position: absolute;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 18px;
+  font-family: "Nunito", sans-serif;
+  cursor: pointer;
+}
+#end {
+  color: black;
+}
+.cd-two {
+  margin-top: 3px;
+}
+#img-small {
+  width: 50%;
+  height: 50%;
+  margin-left: 60px;
+  margin-top: 15px;
+}
+
+#login-error {
+  color: red;
+  text-align: start;
+  padding-left: 35px;
+  font-size: 18px;
+}
+
+/* Login Credentials */
+
+.crd1 {
+  background-color: #499d16;
+  padding: 50px 20px;
+  border-radius: 15px;
+  display: flex;
+  height: 350px;
+}
+
+.User-logo {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 6px;
+}
+
+.box1,
+.box2 {
+  width: 250px;
+  text-align: center;
+  border: 5px double #ebecf1;
+  padding-top: 30px;
+  border-radius: 12px;
+
+  margin: 5px;
+}
+
+.admin,
+.referral {
+  color: #ebecf1 !important;
+}
+
+.forgot-pwd {
+  text-align: center;
+}
